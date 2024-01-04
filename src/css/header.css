@@ -12,10 +12,11 @@
     max-width: 100px;
     width: 100%;
     border-radius: 50%;
+    transition: all .3s ease;
 }
 
 .header--title, .header--subtitle {
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     color: var(--brand-color);
     letter-spacing: 0.05em;
@@ -29,16 +30,27 @@
 
 @media screen and (max-width: 768px) {
     .header--title {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         letter-spacing: 0.01em;
     }
     .header--subtitle {
-        font-size: 1rem;
+        font-size: 0.8rem;
         letter-spacing: 0.01em;
+    }
+    .header--logo {
+        max-width: 50px;
+    }
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1.5rem;
     }
 }
 
 @media screen and (max-width: 360px) {
+    .header--logo {
+        max-width: 50px;
+    }
     .header--title {
         font-size: 1.2rem;
     }
