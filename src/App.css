@@ -1,0 +1,59 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('./css/fonts.css');
+@import url('./css/variables.css');
+@import url('./css/header.css');
+@import url('./css/contact.css');
+@import url('./css/menuButton.css');
+@import url('./css/footer.css');
+@import url('./css/gallery.css');
+
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.App {
+  width: 100%;
+  min-height: 100svh;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-image: url('./img/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  background-color: gray;
+}
+
+.main--wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .main--wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main {
+    padding: 4rem 1rem;
+  }
+}
+

@@ -1,0 +1,44 @@
+.menuButton {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+}
+
+.menuButton--button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.25) 100%), 
+            radial-gradient(at top center, rgba(255,255,255,0.35) 0%, rgba(0,0,0,0.60) 120%) 
+            #303030;
+    background-blend-mode: multiply,multiply;
+    padding: 1rem 2rem;
+    transition: all .3s ease;
+    border-radius: 50px;
+}
+
+.menuButton--icon {
+    width: 20px;
+}
+
+.menuButton--button:hover {
+    transform: scale(0.95);
+}
+
+@media screen and (max-width: 768px) {
+    .menuButton--button {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .menuButton--button {
+        font-size: 0.85rem;
+    }
+}
