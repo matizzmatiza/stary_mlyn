@@ -13,7 +13,10 @@ function Gallery() {
             width : 800,
             height: 500,
             gap   : '1rem',
-            perPage: 1
+            perPage: 1,
+            autoplay: true,
+            interval: 2500,
+            pauseOnHover: false
           } }
           >
                 <SplideSlide>
