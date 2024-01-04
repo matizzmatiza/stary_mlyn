@@ -10,6 +10,8 @@
     width: 100%;
     margin: auto;
     background-color: var(--dark-gray-color);
+    border: 2px solid var(--dark-gray-color);
+    border-radius: 5px;
 }
 
 .splide__slide img {
@@ -17,6 +19,7 @@
     height: 100%;
     object-fit: cover;
     background-color: var(--dark-gray-color);
+    border-radius: 5px;
 }
 
 .splide__arrow {

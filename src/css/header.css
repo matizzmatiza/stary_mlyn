@@ -8,6 +8,10 @@
     background-color: var(--dark-gray-color);
 }
 
+.header--logo-wrapper {
+    display: block;
+}
+
 .header--logo {
     max-width: 100px;
     width: 100%;

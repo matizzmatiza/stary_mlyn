@@ -14,7 +14,7 @@
 
 
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: var( --brand-font);
   font-size: 16px;
 }
 
@@ -59,4 +59,3 @@ html {
     padding: 4rem 1rem;
   }
 }
-

@@ -7,7 +7,7 @@ function Footer() {
 
     return (
         <footer className="footer">
-           <p className="footer--text">&copy; {getYear()} Restauracja Stary Młyn w Jarocinie</p>
+           <p className="footer--text">&copy; {getYear()} Restauracja Stary Młyn. Wszystkie prawa zastrzeżone.</p>
         </footer>
     );
 }
