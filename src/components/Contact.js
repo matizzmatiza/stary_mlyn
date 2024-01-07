@@ -2,6 +2,7 @@ import fbIcon from '../img/fb.svg';
 import igIcon from '../img/ig.svg';
 import phoneIcon from '../img/phone.svg';
 import emailIcon from '../img/email.svg';
+import 'animate.css';
 
 const contacts = {
   'phone': {
@@ -31,18 +32,18 @@ function Contact() {
       <div className="contact--contact-bg">
       <div className="contact--wrapper">
         <a href={contacts.phone.link} className='contact--icon'>
-          <img src={phoneIcon} alt={contacts.phone.alt} className='contact--contact-img' />
+          <img src={phoneIcon} alt={contacts.phone.alt} className='contact--contact-img animate__animated animate__zoomIn' />
         </a>
         <a href={contacts.email.link} className='contact--icon'>
-          <img src={emailIcon} alt={contacts.email.alt} className='contact--contact-img' />
+          <img src={emailIcon} alt={contacts.email.alt} className='contact--contact-img animate__animated animate__zoomIn' />
         </a>
       </div>
       <div className="contact--wrapper">
         <a href={socials.fb.url} className='social--icon'>
-          <img src={fbIcon} alt={socials.fb.alt} className='contact--social-img' />
+          <img src={fbIcon} alt={socials.fb.alt} className='contact--social-img animate__animated animate__zoomIn' />
         </a>
         <a href={socials.ig.url} className='social--icon'>
-          <img src={igIcon} alt={socials.ig.alt} className='contact--social-img' />
+          <img src={igIcon} alt={socials.ig.alt} className='contact--social-img animate__animated animate__zoomIn' />
         </a>
       </div>
       </div>
