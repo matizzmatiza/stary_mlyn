@@ -18,6 +18,10 @@ html {
   font-size: 16px;
 }
 
+body {
+  background-color: var(--dark-gray-color);
+}
+
 .App {
   width: 100%;
   min-height: 100svh;
